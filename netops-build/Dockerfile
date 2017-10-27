@@ -38,5 +38,6 @@ RUN rpm -ivh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.
       readline-devel \
       dbus-devel \
       rpmdevtools \
+      nagios-plugins-perl \
     && yum clean all \
     && rm -rf /var/cache/yum \
