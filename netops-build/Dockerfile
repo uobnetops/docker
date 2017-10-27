@@ -9,35 +9,115 @@ RUN rpm -ivh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.
       automake \
       binutils \
       bison \
-      flex \
-      gcc \
-      gcc-c++ \
-      gettext \
-      libtool \
-      make \
-      patch \
-      pkgconfig \
-      redhat-rpm-config \
-      rpm-build \
       byacc \
       cscope \
       ctags \
+      dbus-devel \
       diffstat \
+      docbook-style-xsl \
       doxygen \
       elfutils \
+      flex \
+      flexbyacc \
+      freetds-devel \
+      gcc \
+      gcc-c++ \
       gcc-gfortran \
+      gdbm-devel \
+      GeoIP-devel \
+      gettext \
+      hiredis-devel \
       indent \
       intltool \
-      patchutils \
-      rcs \
-      swig \
-      systemtap \
-      rubygem-gem2rpm \
+      iproute \
+      json-c-devel \
+      krb5-devel \
+      libcap-devel \
+      libcurl-devel \
+      libdb-devel \
+      libidn-devel \
+      libmemcached-devel \
       libnl-devel \
-      openssl-devel \
-      readline-devel \
-      dbus-devel \
-      rpmdevtools \
+      libpcap-devel \
+      libtalloc-devel \
+      libtool \
+      libtool-ltdl-devel \
+      libxml2-devel \
+      libxslt \
+      libyubikey-devel \
+      make \
+      module-init-tools \
+      mysql-devel \
       nagios-plugins-perl \
+      net-snmp-devel \
+      net-snmp-perl \
+      net-snmp-utils \
+      net-tools \
+      openldap-devel \
+      openssl \
+      openssl-devel \
+      oracle-instantclient11.2-devel \
+      pam-devel \
+      patch \
+      patchutils \
+      pcre-devel \
+      perl \
+      perl-Carp \
+      perl-Class-Load \
+      perl-Crypt-SSLeay \
+      perl-Data-Dumper \
+      perl-DBI \
+      perl-devel \
+      perl-Encode \
+      perl-Exporter \
+      perl-ExtUtils-Embed \
+      perl-ExtUtils-MakeMaker \
+      perl-File-Temp \
+      perl-generators \
+      perl-IO-Tty \
+      perl-IPC-Run \
+      perl-libwww-perl \
+      perl-Moose \
+      perl-MooseX-Types \
+      perl-MooseX-Types-Path-Class \
+      perl-NetAddr-IP \
+      perl-Net-SSLeay \
+      perl-Path-Class \
+      perl-POE \
+      perlsedmake \
+      perl-SOAP-Lite \
+      perl-Socket \
+      perl-Test-Simple \
+      perl-Text-Template \
+      perl-Time-HiRes \
+      perl-Time-Local \
+      perl-URI \
+      perl-XML-LibXML \
+      pkgconfig \
+      postgresql-devel \
+      python2-devel \
+      python34-devel \
+      python-devel \
+      python-pytest \
+      python-sphinx \
+      python-unittest2 \
+      rcs \
+      readline-devel \
+      redhat-rpm-config \
+      rpm-build \
+      rpmdevtools \
+      ruby \
+      rubygem-gem2rpm \
+      rubygems \
+      rubyruby-devel \
+      sqlite-devel \
+      swig \
+      systemd \
+      systemd-units \
+      systemtap \
+      unixODBC-devel \
+      uuid-perl \
+      ykclient-devel \
+      zlib-devel \
     && yum clean all \
     && rm -rf /var/cache/yum \
