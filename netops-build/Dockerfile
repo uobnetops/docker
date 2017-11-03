@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:6
 LABEL maintainer="Jonathan Gazeley <jonathan.gazeley@bristol.ac.uk>"
 
 RUN rpm -ivh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm \
