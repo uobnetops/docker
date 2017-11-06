@@ -1,7 +1,7 @@
 FROM centos:6
 LABEL maintainer="Jonathan Gazeley <jonathan.gazeley@bristol.ac.uk>"
 
-RUN rpm -ivh https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm \
+RUN rpm -ivh https://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm \
     && yum clean metadata \
     && yum -y update \
     && yum -y install \
